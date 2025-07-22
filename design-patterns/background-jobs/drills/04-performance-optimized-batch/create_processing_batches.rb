@@ -11,7 +11,7 @@ class CreateProcessingBatches < ActiveRecord::Migration[7.0]
       t.json :metadata, default: {}
       t.timestamps
     end
-    
+
     add_index :processing_batches, :status
     add_index :processing_batches, :created_at
   end

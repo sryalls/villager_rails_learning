@@ -9,7 +9,7 @@ class CreateResourceCollections < ActiveRecord::Migration[7.0]
       t.timestamp :collected_at, null: false
       t.timestamps
     end
-    
+
     # TODO: Add appropriate indexes for idempotency and performance
   end
 end

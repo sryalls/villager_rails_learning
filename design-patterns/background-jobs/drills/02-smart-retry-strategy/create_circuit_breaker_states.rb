@@ -7,7 +7,7 @@ class CreateCircuitBreakerStates < ActiveRecord::Migration[7.0]
       t.integer :state, default: 0 # 0: closed, 1: open, 2: half_open
       t.timestamps
     end
-    
+
     add_index :circuit_breaker_states, :name, unique: true
   end
 end

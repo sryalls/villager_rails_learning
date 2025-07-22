@@ -13,7 +13,7 @@ class CreateDistributedBatches < ActiveRecord::Migration[7.0]
       t.integer :status, default: 0
       t.timestamps
     end
-    
+
     add_index :distributed_batches, :status
     add_index :distributed_batches, :created_at
   end

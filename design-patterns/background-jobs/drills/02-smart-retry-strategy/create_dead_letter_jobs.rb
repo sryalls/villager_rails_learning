@@ -10,7 +10,7 @@ class CreateDeadLetterJobs < ActiveRecord::Migration[7.0]
       t.json :metadata, default: {}
       t.timestamps
     end
-    
+
     add_index :dead_letter_jobs, :job_class
     add_index :dead_letter_jobs, :failed_at
   end

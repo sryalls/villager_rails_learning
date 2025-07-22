@@ -11,7 +11,7 @@ class CreateBatchProgress < ActiveRecord::Migration[7.0]
       t.json :performance_metrics, default: {}
       t.timestamps
     end
-    
+
     add_index :batch_progresses, :processing_batch_id
     add_index :batch_progresses, :created_at
   end
