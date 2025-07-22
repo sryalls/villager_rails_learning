@@ -1,0 +1,10 @@
+Background jobs and service object design patterns.
+
+Requires further learning:
+* Use of concerns as an alternative
+* Further reading - Autoloading and reloading constants
+* using proc call
+* application service pattern
+* open struct as output for service class
+* namespacing service objects
+* making service objects idempotent, especially for background job use. 
