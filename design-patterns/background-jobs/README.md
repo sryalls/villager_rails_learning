@@ -152,7 +152,7 @@ Jobs work with Turbo Streams to provide real-time UI updates without page refres
 ### Advanced Background Job Patterns
 For sophisticated background job techniques and production patterns:
 - **[Advanced Background Job Patterns](advanced-patterns.md)** - Job idempotency, circuit breaker error handling, workflow orchestration, performance optimization, and distributed coordination patterns
-- **[Background Jobs Coding Drills](coding-drills.md)** - Comprehensive hands-on exercises covering idempotent jobs, smart retry strategies, workflow systems, batch processing, and distributed coordination
+- **[Background Jobs Coding Drills](drills/)** - Comprehensive hands-on exercises covering idempotent jobs, smart retry strategies, workflow systems, batch processing, and distributed coordination
 
 ### Complete Learning Path
 - [Implementation Examples](implementation-examples.md) - Practical patterns for job design, error handling, and testing
